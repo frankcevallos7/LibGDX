@@ -44,7 +44,7 @@ public class WinScreen implements Screen {
 		}
 
 		batch.begin();
-		font.draw(batch, "GANSTE!!", 50, Gdx.graphics.getHeight() - 10);
+		font.draw(batch, "GANASTE!!", 50, Gdx.graphics.getHeight() - 10);
 		batch.draw(frames[(int)i], 30, 50);
 		batch.end();
 		i += 0.08;
